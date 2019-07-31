@@ -1,6 +1,6 @@
 # LeetCode.com Puzzles and Solution
 
-This is my playground to implement some of the puzzles from https://leetcode.com/problemset/all/
+This is my playground to implement some of the puzzles from [leetcode.com](https://leetcode.com/problemset/all/)
 
 I use whatever language I feel like using at any given time.
 
@@ -11,6 +11,4 @@ Copyright 2019 (c) by Daniel Kurashige-Gollub
 
 # License
 
-MIT 2.0
-
-See (LICENSE.md)[LICENSE.md] file for details.
+[MIT 2.0](license.md)
