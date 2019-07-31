@@ -70,11 +70,11 @@ const addTwo = (listA, listB) => {
  *
  * @return {boolean} true if both lists have the same data and are therefore equal
  */
-const equal = (a, b) => {
-  if (a.length !== b.length) return false;
+const equal = (listA, listB) => {
+  if (listA.length !== listB.length) return false;
   
-  const numA = a.toNumber();
-  const numB = b.toNumber();
+  const numA = listA.toNumber();
+  const numB = listB.toNumber();
   
   return numA === numB;
 };
