@@ -4,16 +4,6 @@ class LinkedList {
     this.next = next;
   }
 
-  static CreateFrom(numbers) {
-    let node = new LinkedList(numbers.pop());
-
-    while (numbers.length) {
-      node = new LinkedList(numbers.pop(), node);
-    }
-
-    return node;
-  }
-
   toString() {
     let s = 'LL:';
     let node = this;
@@ -46,12 +36,23 @@ class LinkedList {
 
     return size;
   }
+
+  static CreateFrom(numbers) {
+    let node = new LinkedList(numbers.pop());
+
+    while (numbers.length) {
+      node = new LinkedList(numbers.pop(), node);
+    }
+
+    return node;
+  }
 }
 
 
 /**
  * @param {LinkedList} listA contains digits of a number in reverse order
  * @param {LinkedList} listB contains digits of a number in reverse order
+ *
  * @return {LinkedList} Linked list with sum of numbers in list a and b in reverse order
  */
 const addTwo = (listA, listB) => {
@@ -63,6 +64,12 @@ const addTwo = (listA, listB) => {
   return LinkedList.CreateFrom(list);
 };
 
+/**
+ * @param {LinkedList} listA
+ * @param {LinkedList} listB
+ *
+ * @return {boolean} true if both lists have the same data and are therefore equal
+ */
 const equal = (a, b) => {
   if (a.length !== b.length) return false;
   
