@@ -128,9 +128,9 @@ console.log('---------------');
 
 // Test Case D
 (function(name) {
-  const list1 = LinkedList.CreateFrom([4]);
-  const list2 = LinkedList.CreateFrom([1]);
-  const expected = LinkedList.CreateFrom([5]);
+  const list1 = LinkedList.CreateFrom([9, 8, 7, 6]);
+  const list2 = LinkedList.CreateFrom([1, 2]);
+  const expected = LinkedList.CreateFrom([0, 1, 8, 6]);
   const list = addTwo(list1, list2);
 
   printResults(name, list1, list2, expected, list);
