@@ -11,7 +11,7 @@ I use whatever language I feel like using at any given time.
 
 # Problems yet to tackle
 
-Let's solve these problems in different languages.
+Let's solve these problems in different languages. All problems in order can be found on [leetcode.com/problemset/all/](https://leetcode.com/problemset/all/).
 
 * [3sum](https://leetcode.com/problems/3sum/)
 * _optional_ [3sum-closest](https://leetcode.com/problems/3sum-closest/)
