@@ -3,24 +3,33 @@
 Console.WriteLine("LeetCode.com: 3Sum");
 
 var solution = new Solution();
-var example1 = solution.ThreeSum(new [] { -1, 0, 1, 2,-1, -4 });
+
+// Input: nums = [-1,0,1,2,-1,-4]
+// Output: [[-1,-1,2],[-1,0,1]]
+var example1 = solution.ThreeSum(new [] { -1, 0, 1, 2, -1, -4 });
+var ex1str = Solution.AsString(example1);
+Console.WriteLine("Example 1: [-1, 0, 1, 2, -1, -4]");
+Console.WriteLine(ex1str);
+Console.WriteLine("");
+
 var example2 = solution.ThreeSum(new int[] {});
+var ex2str = Solution.AsString(example2);
+Console.WriteLine("Example 2: []");
+Console.WriteLine(ex2str);
+Console.WriteLine("");
+
 var example3 = solution.ThreeSum(new [] { 0 });
+var ex3str = Solution.AsString(example3);
+Console.WriteLine("Example 3: [0]");
+Console.WriteLine(ex3str);
+Console.WriteLine("");
 
-Console.WriteLine(example1.ToString());
-Console.WriteLine(example2.ToString());
-Console.WriteLine(example3.ToString());
+var expected1 = "-1,-1,2\n-1,0,1\n";
+var expected2 = "";
+var expected3 = "";
 
-var expected1 = new List<IList<int>> {
-    new [] { -1, -1, 2 },
-    new [] { -1, 0, 1 },
-};
-var expected2 = new List<IList<int>> {};
-var expected3 = new List<IList<int>> { new [] { 0 } };
-
-// TODO(dkg): fix these
-// Debug.Assert(example1.Count == expected1.Count);
-// Debug.Assert(example2 == expected2);
-// Debug.Assert(example3 == expected3);
+Debug.Assert(ex1str == expected1);
+Debug.Assert(ex2str == expected2);
+Debug.Assert(ex3str == expected3);
 
 Console.WriteLine("Done");
