@@ -8,7 +8,7 @@ I use whatever language I feel like using at any given time.
 
 * [two-sum](https://leetcode.com/problems/two-sum/): [my solution](./0001-two-sum/)
 * [add-two-numbers](https://leetcode.com/problems/add-two-numbers/): [my solution](./0002-add-two-numbers/)
-* [3sum](https://leetcode.com/problems/3sum/) [my solution](./0015-3sum/)
+* [3sum](https://leetcode.com/problems/3sum/): [my solution](./0015-3sum/)
 
 # Problems yet to tackle
 
@@ -36,6 +36,7 @@ Let's solve these problems in different languages. All problems in order can be 
 # Copyright
 
 Copyright 2019 (c) by Daniel Kurashige-Gollub
+
 Copyright 2021 (c) by Daniel Kurashige-Gollub
 
 # License

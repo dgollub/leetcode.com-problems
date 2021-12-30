@@ -51,5 +51,6 @@ You will need to have [.NET Core 6.x](https://dotnet.microsoft.com/download) (or
 Run the following command to compile and run the program
 
 ```bash
+cd dotnet
 dotnet run
 ```
