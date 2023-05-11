@@ -28,7 +28,7 @@ public class Solution
 
         for (var i = 0; i < input.Length; i++)
         {
-            for (var j = i; j <= input.Length; j++)
+            for (var j = i + 1; j <= input.Length; j++)
             {
                 var length = j - i;
                 if (length <= 0)
