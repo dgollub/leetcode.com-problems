@@ -4,7 +4,7 @@ public class Solution {
     public IList<IList<int>> ThreeSum(int[] nums) {
         var count = nums.Length;
         if (count > 3000) {
-            throw new ArgumentException($"nums must not exceed 3000 entries");
+            throw new ArgumentException("nums must not exceed 3000 entries");
         }
 
         // NOTE(dkg): This is required to filter out duplicate triplets.
