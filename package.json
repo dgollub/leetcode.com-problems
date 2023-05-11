@@ -1,0 +1,40 @@
+{
+  "name": "leetcode.com",
+  "version": "1.0.0",
+  "description": "This is my playground to implement some of the puzzles from leetcode.com",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "NODE_ENV=test mocha -p 'mocha.setup.js' './{,!(node_modules)/**}/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgollub/leetcode.com-problems.git"
+  },
+  "keywords": [
+    "leetcode",
+    "puzzle",
+    "puzzles",
+    "algorithms",
+    "data-structures",
+    "javascript",
+    "dotnet",
+    "csharp",
+    "rust"
+  ],
+  "author": "Daniel Kurashige-Gollub <daniel@kurashige-gollub.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgollub/leetcode.com-problems/issues"
+  },
+  "homepage": "https://github.com/dgollub/leetcode.com-problems#readme",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "10.2.0"
+  }
+}

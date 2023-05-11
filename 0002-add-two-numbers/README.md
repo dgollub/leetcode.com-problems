@@ -13,11 +13,3 @@ Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 ```
-
-# Build instructions
-
-You need (Node.js)[https://nodejs.org/] installed.
-
-Then simply run `node index.js`, which will run my implementation and output a result.
-
-Check the code for details.
