@@ -35,9 +35,7 @@ Let's solve these problems in different languages. All problems in order can be 
 
 # Copyright
 
-Copyright 2019 (c) by Daniel Kurashige-Gollub
-
-Copyright 2021 (c) by Daniel Kurashige-Gollub
+Copyright 2019-2023 (c) by Daniel Kurashige-Gollub
 
 # License
 
