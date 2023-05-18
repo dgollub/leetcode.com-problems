@@ -11,6 +11,7 @@ I use whatever language I feel like using at any given time.
 * [3sum](https://leetcode.com/problems/3sum/): [solution: .net core](./0015-3sum/)
 * [longest-palindromic-substring](https://leetcode.com/problems/longest-palindromic-substring/): [solution: .net core](./0005-longest-palindromic-substring/)
 * [jump-game](https://leetcode.com/problems/jump-game/): [solution: Rust](./0055-jump-game/)
+* [daily-temperatures](https://leetcode.com/problems/daily-temperatures/): [solution: Rust](./0739-daily-temperatures/)
 
 # Problems yet to tackle
 
@@ -18,7 +19,6 @@ Let's solve these problems in different languages. All problems in order can be 
 
 * _optional_ [3sum-closest](https://leetcode.com/problems/3sum-closest/)
 * [binary-tree-paths](https://leetcode.com/problems/binary-tree-paths/)
-* [daily-temperatures](https://leetcode.com/problems/daily-temperatures/)
 * [decode-string](https://leetcode.com/problems/decode-string/)
 * [jump-game-ii](https://leetcode.com/problems/jump-game-ii/)
 * [longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
