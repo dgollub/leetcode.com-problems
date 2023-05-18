@@ -31,3 +31,6 @@ dist/
 
 # Setup files
 id_rsa
+
+# Rust
+target/
