@@ -29,12 +29,12 @@
   },
   "homepage": "https://github.com/dgollub/leetcode.com-problems#readme",
   "devDependencies": {
-    "eslint": "^8.40.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-prettier": "^4.2.1",
-    "mocha": "10.2.0"
+    "eslint": "9.13.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-prettier": "5.2.1",
+    "mocha": "10.7.3"
   }
 }
