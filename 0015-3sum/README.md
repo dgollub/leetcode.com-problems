@@ -46,7 +46,7 @@ Implementations are available in the following languages/frameworks:
 
 This is the .NET Core 6.x implementation using the most recent version of C#.
 
-You will need to have [.NET Core 6.x](https://dotnet.microsoft.com/download) (or newer) installed and working.
+You will need to have [.NET Core 8.x](https://dotnet.microsoft.com/download) (or newer) installed and working.
 
 Run the following command to compile and run the program
 
