@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "NODE_ENV=test mocha -p 'mocha.setup.js' './{,!(node_modules)/**}/*.js'"
+    "test": "NODE_ENV=test mocha 'mocha.setup.js' './{,!(node_modules)/**}/*.js'"
   },
   "repository": {
     "type": "git",

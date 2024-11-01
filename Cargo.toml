@@ -3,4 +3,5 @@
 members = [
     "0055-jump-game/rust",
     "0739-daily-temperatures/rust",
+    "others/0001",
 ]
